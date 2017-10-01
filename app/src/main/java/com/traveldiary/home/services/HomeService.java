@@ -45,6 +45,7 @@ public class HomeService extends BaseService {
 
             WebConnectionModel webConnectionModel = new WebConnectionModel();
             webConnectionModel.setForceRefresh(false)
+
                     .setShouldSendImmediateResult(true)
                     .setShouldSendServiceResponseAfterImmediateCacheResponse(true)
                     .setTimeFactor(Constants.ServiceConfiguration.PACKAGES_TIME_FACTOR)
